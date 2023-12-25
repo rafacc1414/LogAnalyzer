@@ -1,0 +1,6 @@
+[
+    {"timestamp": "2023-12-15 10:30:15", "severity": "INFO", "origin": "App1", "message": "Aplicación iniciada correctamente."},
+    {"timestamp": "2023-12-15 10:32:45", "severity": "ERROR", "origin": "App2", "message": "Error al procesar la solicitud."},
+    {"timestamp": "2023-12-15 11:15:20", "severity": "WARNING", "origin": "App1", "message": "Se detectó un comportamiento inusual."}
+]
+  
