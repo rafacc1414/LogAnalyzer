@@ -1,0 +1,4 @@
+Timestamp,Severidad,Origen,Mensaje
+2023-12-15 10:30:15,INFO,App1,Aplicación iniciada correctamente.
+2023-12-15 10:32:45,ERROR,App2,Error al procesar la solicitud.
+2023-12-15 11:15:20,WARNING,App1,Se detectó un comportamiento inusual.

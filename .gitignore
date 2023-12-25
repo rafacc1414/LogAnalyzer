@@ -1,6 +1,7 @@
 # C++
 build
 build_conan
+CMakeUserPresets.json
 
 # Prerequisites
 *.d
