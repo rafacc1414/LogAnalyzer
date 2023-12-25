@@ -1,0 +1,7 @@
+[requires]
+gtest/cci.20210126
+nlohmann_json/3.11.3
+
+[generators]
+CMakeDeps
+CMakeToolchain
