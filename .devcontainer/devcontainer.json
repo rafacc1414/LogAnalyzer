@@ -1,0 +1,26 @@
+{
+    "name" : "log-analyzer",
+    "dockerComposeFile" : "compose.yml",
+    "service": "log-analyzer-app",
+	"workspaceFolder": "/code/dev",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "Gruntfuggly.todo-tree",
+                "mintlify.document",
+                "mhutchie.git-graph",
+                "ms-azuretools.vscode-docker",
+                "alefragnani.project-manager",
+                "github.vscode-github-actions",
+                "ms-python.black-formatter",
+                "twxs.cmake",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.cpptools-extension-pack"
+            ]
+		}
+	},
+	"containerUser": "dev",
+	"forwardPorts": [5432]
+}
