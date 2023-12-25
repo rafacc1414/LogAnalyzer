@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  log-analyzer-app:
+    build:
+      context : .
+      dockerfile: Dockerfile
+    image: log-analyzer
+    container_name: log-analyzer-app
+    command: sleep infinity
+    volumes:
+      - ../:/code/dev
+      - ~/.gitconfig/:/home/dev/.gitconfig
+    user: dev
