@@ -51,7 +51,7 @@ then
     then
         mkdir $DIR_BUILD
     fi
-    #conan profile detect --force
+    conan profile detect --force
     conan install $DIR_CONFIG_RELEASE --output-folder $DIR_BUILD/cmake-build --build=missing
     cmake -S $DIR_CONFIG_RELEASE -B $DIR_BUILD -DCMAKE_TOOLCHAIN_FILE=$DIR_BUILD/cmake-build/conan_toolchain.cmake -DCMAKE_BUILD_TYPE=release
 fi
@@ -90,7 +90,7 @@ then
         mkdir $DIR_TEST_BUILD
     fi
 
-    #conan profile detect --force
+    conan profile detect --force
     conan install $DIR_CONFIG_UNIT_TEST --output-folder $DIR_TEST_BUILD/cmake-build --build=missing
     cmake -S $DIR_CONFIG_UNIT_TEST -B $DIR_TEST_BUILD -DCMAKE_TOOLCHAIN_FILE=$DIR_TEST_BUILD/cmake-build/conan_toolchain.cmake -DCMAKE_BUILD_TYPE=release
     cmake --build $DIR_TEST_BUILD --config release
