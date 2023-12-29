@@ -3,6 +3,8 @@ services:
   log-analyzer-app:
     build:
       context : .
+      args:
+        - OS=${OS}
       dockerfile: Dockerfile
     image: log-analyzer
     container_name: log-analyzer-app
