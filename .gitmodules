@@ -1,0 +1,3 @@
+[submodule "log-analyzer-front"]
+	path = log-analyzer-front
+	url = git@github.com:rafacc1414/log-analyzer-front.git
